@@ -1,0 +1,15 @@
+/mnt/beegfs/mkim54/relevance-kv/runs/dev/full.json --method full --split dev
+/mnt/beegfs/mkim54/relevance-kv/runs/dev/snapkv.json --method snapkv --split dev
+/mnt/beegfs/mkim54/relevance-kv/runs/dev/adakv.json --method adakv --split dev
+/mnt/beegfs/mkim54/relevance-kv/runs/dev/rel_density_k2_sentence.json --method relhead --heads_file /mnt/beegfs/mkim54/relevance-kv/runs/heads_llama_disc.json --agg density --k 2 --chunk sentence --split dev
+/mnt/beegfs/mkim54/relevance-kv/runs/dev/rel_density_k2_token.json --method relhead --heads_file /mnt/beegfs/mkim54/relevance-kv/runs/heads_llama_disc.json --agg density --k 2 --chunk token --split dev
+/mnt/beegfs/mkim54/relevance-kv/runs/dev/rel_density_k4_sentence.json --method relhead --heads_file /mnt/beegfs/mkim54/relevance-kv/runs/heads_llama_disc.json --agg density --k 4 --chunk sentence --split dev
+/mnt/beegfs/mkim54/relevance-kv/runs/dev/rel_density_k4_token.json --method relhead --heads_file /mnt/beegfs/mkim54/relevance-kv/runs/heads_llama_disc.json --agg density --k 4 --chunk token --split dev
+/mnt/beegfs/mkim54/relevance-kv/runs/dev/rel_density_k8_sentence.json --method relhead --heads_file /mnt/beegfs/mkim54/relevance-kv/runs/heads_llama_disc.json --agg density --k 8 --chunk sentence --split dev
+/mnt/beegfs/mkim54/relevance-kv/runs/dev/rel_density_k8_token.json --method relhead --heads_file /mnt/beegfs/mkim54/relevance-kv/runs/heads_llama_disc.json --agg density --k 8 --chunk token --split dev
+/mnt/beegfs/mkim54/relevance-kv/runs/dev/rel_mass_k2_sentence.json --method relhead --heads_file /mnt/beegfs/mkim54/relevance-kv/runs/heads_llama_disc.json --agg mass --k 2 --chunk sentence --split dev
+/mnt/beegfs/mkim54/relevance-kv/runs/dev/rel_mass_k2_token.json --method relhead --heads_file /mnt/beegfs/mkim54/relevance-kv/runs/heads_llama_disc.json --agg mass --k 2 --chunk token --split dev
+/mnt/beegfs/mkim54/relevance-kv/runs/dev/rel_mass_k4_sentence.json --method relhead --heads_file /mnt/beegfs/mkim54/relevance-kv/runs/heads_llama_disc.json --agg mass --k 4 --chunk sentence --split dev
+/mnt/beegfs/mkim54/relevance-kv/runs/dev/rel_mass_k4_token.json --method relhead --heads_file /mnt/beegfs/mkim54/relevance-kv/runs/heads_llama_disc.json --agg mass --k 4 --chunk token --split dev
+/mnt/beegfs/mkim54/relevance-kv/runs/dev/rel_mass_k8_sentence.json --method relhead --heads_file /mnt/beegfs/mkim54/relevance-kv/runs/heads_llama_disc.json --agg mass --k 8 --chunk sentence --split dev
+/mnt/beegfs/mkim54/relevance-kv/runs/dev/rel_mass_k8_token.json --method relhead --heads_file /mnt/beegfs/mkim54/relevance-kv/runs/heads_llama_disc.json --agg mass --k 8 --chunk token --split dev

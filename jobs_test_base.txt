@@ -1,0 +1,8 @@
+/mnt/beegfs/mkim54/relevance-kv/runs/test/full.json --method full --split test
+/mnt/beegfs/mkim54/relevance-kv/runs/test/snapkv.json --method snapkv --split test
+/mnt/beegfs/mkim54/relevance-kv/runs/test/adakv.json --method adakv --split test
+/mnt/beegfs/mkim54/relevance-kv/runs/test/pyramidkv.json --method pyramidkv --split test
+/mnt/beegfs/mkim54/relevance-kv/runs/test/chunkkv.json --method chunkkv --split test
+/mnt/beegfs/mkim54/relevance-kv/runs/test/criticaladakv.json --method criticaladakv --split test
+/mnt/beegfs/mkim54/relevance-kv/runs/test/snapkv_qagnostic.json --method snapkv --split test --query_agnostic
+/mnt/beegfs/mkim54/relevance-kv/runs/test/adakv_qagnostic.json --method adakv --split test --query_agnostic
